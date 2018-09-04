@@ -1,0 +1,28 @@
+{
+  "name": "slot-game",
+  "description": "Slot Machine Game",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Glauber Silva <glauber@glauber.pro> (https://glauber.pro/)",
+  "repository": "glauber-silva/slot-game",
+  "scripts": {
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "8.0.0",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "gh-pages": "^1.1.0",
+    "html-webpack-plugin": "^3.0.6",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^3.0.0",
+    "webpack-dev-server": "^3.1.1"
+  }
+}

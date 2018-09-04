@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML 5 Slot Machine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap-reboot.min.css" integrity="sha256-pz64SJ9vnWkyhtOo7mtiOekWuFo7YIGXrzXjElYzcWA=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    <div id="slot">
+      <div id="jackpot">Jackpot: <input type="text" id="jp" value="5000"></div>
+      <div id="reward-container">
+        <div id="reward">
+          You win: <span id="win"></span>
+        </div>
+      </div>
+      <div id="reels">
+        <div class="reel"></div>
+        <div class="reel"></div>
+        <div class="reel"></div>
+      </div>
+      <div id="controls">
+        <button type="button" id="spin">SPIN</button>
+        <label>
+          <input type="checkbox" name="autoplay" id="autoplay">
+          Autoplay
+        </label>
+    </div>
+    <script src="https://cdn.polyfill.io/v2/polyfill.js?features=default,WebAnimations&flags=gated"></script>
+  </body>
+</html>
